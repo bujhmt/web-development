@@ -1,0 +1,78 @@
+
+body {
+    padding: 80px 60px 0 100px;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+p {
+    text-indent: 50px;
+    padding-left: -50px;
+}
+
+dt {
+    font-style: italic;
+}
+
+dd {
+    margin-left: 50px;
+}
+
+li, p, code, span, dt, dd, th, td {
+    font-size: 125%;
+    line-height: 110%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    width: 100%;
+}
+
+ol {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: start;
+}
+
+tr:nth-of-type(odd) {
+    background: lightgray;
+}
+
+ol li {
+    margin-left: 50px;
+}
+
+.article-wrapper > * {
+    margin-bottom: 25px;
+}
+
+.article-wrapper {
+    max-width: 815px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.float-right-img {
+    float: right;
+    margin: 27px 27px 0;
+}
+
+.centered {
+    width: 534px;
+}
+
+.mt {
+    margin-top: 25px
+}
+
+
