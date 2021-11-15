@@ -1,0 +1,173 @@
+p {
+    color: lightsteelblue;
+}
+
+div p {
+    font-weight: bolder;
+}
+
+div h2 {
+    color: lightgray;
+}
+
+p, h2 {
+    font-size: 14px;
+}
+
+div h2,
+p {
+    font-size: 15px;
+}
+
+#test {
+    color: bisque;
+}
+
+#test p {
+    text-shadow: 1px 1px 2px cornflowerblue, 0 0 1em aqua, 0 0 0.2em aqua;
+}
+
+#test p,
+h2 {
+    text-decoration: underline;
+}
+
+.www {
+    border: 10px solid lightgreen;
+}
+
+p.www {
+    border: 10px solid brown;
+}
+
+.test,
+.xxx {
+    color: lightcoral;
+}
+
+p.test,
+.www {
+    font-variant: small-caps;
+}
+
+#test p.www {
+    color: lightsalmon;
+}
+
+#test i {
+    color: yellowgreen;
+}
+
+.www.xxx {
+    border-radius: 20%;
+}
+
+p.test.xxx {
+    text-shadow: red 2px 5px;
+}
+
+.test.www.xxx {
+    border: 2px solid yellowgreen;
+}
+
+p > a {
+    color: yellow;
+}
+
+p > i {
+    text-shadow: greenyellow 1px 0 10px;
+}
+
+ul li {
+    border-bottom: solid 5px tomato;
+}
+
+b + i {
+    text-decoration: green wavy underline;
+}
+
+#test b + i {
+    text-decoration: gold solid underline;
+}
+
+ul + p {
+    text-decoration: goldenrod underline;
+}
+
+h1 + p {
+    text-shadow: 1px 1px 2px black;
+}
+
+#test h2 + p {
+    color: crimson;
+}
+
+* {
+    margin: 5px;
+}
+
+p i {
+    text-decoration: lightpink wavy underline;
+}
+
+[title] {
+    text-shadow: 6px 6px 8px fuchsia;
+}
+
+p[title] {
+    color: brown;
+}
+
+p[title='title'] {
+    text-decoration: wavy underline;
+}
+
+a[href^='#'] {
+    text-decoration: none;
+    color: #333;
+}
+
+a[href$='.html'] {
+    text-decoration: wavy overline;
+}
+
+p[title~='hello'] {
+    text-decoration: dotted underline;
+}
+
+p[class^='top-'] {
+    color: teal;
+}
+
+ol li {
+    border: solid 1px;
+    padding: 5px;
+}
+
+.list1 li:hover {
+    background-color: green;
+}
+
+.list1 li:hover + li {
+    background-color: red;
+}
+
+.list2 li:hover {
+    background-color: green;
+}
+
+.list2 li:hover + li + li {
+    background-color: red;
+}
+
+.list3 li:hover {
+    background-color: green;
+}
+
+.list3 li:hover ~ li {
+    background-color: red;
+}
+
+.list3 li:hover ~ li:last-child {
+    background-color: transparent;
+}
