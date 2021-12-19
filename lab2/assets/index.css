@@ -1,5 +1,5 @@
 p {
-    color: lightsteelblue;
+    color: seagreen;
 }
 
 div p {
@@ -7,7 +7,7 @@ div p {
 }
 
 div h2 {
-    color: lightgray;
+    color: slateblue;
 }
 
 p, h2 {
@@ -24,7 +24,7 @@ p {
 }
 
 #test p {
-    text-shadow: 1px 1px 2px cornflowerblue, 0 0 1em aqua, 0 0 0.2em aqua;
+    text-shadow: 1px 1px 2px cornflowerblue, 0 0 1em peachpuff, 0 0 0.2em peachpuff;
 }
 
 #test p,
@@ -33,16 +33,16 @@ h2 {
 }
 
 .www {
-    border: 10px solid lightgreen;
+    border: 10px solid darkmagenta;
 }
 
 p.www {
-    border: 10px solid brown;
+    border: 10px solid ghostwhite;
 }
 
 .test,
 .xxx {
-    color: lightcoral;
+    color: navy;
 }
 
 p.test,
@@ -51,7 +51,7 @@ p.test,
 }
 
 #test p.www {
-    color: lightsalmon;
+    color: darkblue;
 }
 
 #test i {
@@ -67,7 +67,7 @@ p.test.xxx {
 }
 
 .test.www.xxx {
-    border: 2px solid yellowgreen;
+    border: 2px solid lightsalmon;
 }
 
 p > a {
@@ -75,15 +75,15 @@ p > a {
 }
 
 p > i {
-    text-shadow: greenyellow 1px 0 10px;
+    text-shadow: mediumturquoise 1px 0 10px;
 }
 
 ul li {
-    border-bottom: solid 5px tomato;
+    border-bottom: solid 5px darkolivegreen;
 }
 
 b + i {
-    text-decoration: green wavy underline;
+    text-decoration: antiquewhite wavy underline;
 }
 
 #test b + i {
@@ -99,7 +99,7 @@ h1 + p {
 }
 
 #test h2 + p {
-    color: crimson;
+    color: lightskyblue;
 }
 
 * {
@@ -107,11 +107,11 @@ h1 + p {
 }
 
 p i {
-    text-decoration: lightpink wavy underline;
+    text-decoration: snow wavy underline;
 }
 
 [title] {
-    text-shadow: 6px 6px 8px fuchsia;
+    text-shadow: 6px 6px 8px peachpuff;
 }
 
 p[title] {

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+body * {
+    color: #FFFFFFFF;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000000FF;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #000000FF;
+    padding: 10px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+
+.app * {
+    margin-bottom: 20px;
+}
